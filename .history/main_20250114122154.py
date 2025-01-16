@@ -4,7 +4,7 @@ from faker import Faker
 import pandas as pd 
 
 fake = Faker()
-#Comment for MINOR CHANGES for semantic versioning
+
 #Function to generate rupay card number in financial data
 def generate_rupay_card():
     return "RU" + ''.join(random.choices("0123456789", k=16)) 

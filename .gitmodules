@@ -1,0 +1,3 @@
+[submodule "fake_data_versioning"]
+	path = fake_data_versioning
+	url = https://github.com/aamri-appvin/fake_data_versioning
